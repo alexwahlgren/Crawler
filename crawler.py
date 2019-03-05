@@ -19,8 +19,8 @@ def crawler(url, step, steps):
             print('CONTROL : badLinks=',len(badLinks))
             links = []
             for i in badLinks:
-#               Om du vill se alla hemsidor, ta bort kommentar nedan
-#                print(i)
+#               if you wan't to view all websites, remove comment below
+#               print(i)
                 if i != None and "http" in i:
                     links.append(i)
             if not links:
